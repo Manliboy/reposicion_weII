@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600&family=Catamaran:wght@300;400;500;700&display=swap');
+
+body{
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+#hero{
+	background-image: url("../img/home-event-slide-4.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: #FFF;
+    padding: 20% 0;    
+    background-color: #282932;
+    text-align: center;
+	
+}
+
+#hero span{
+	font-weight: 800;
+	padding-top: 100px;
+	font-size: 60px;
+
+}
+
+.titulo{
+	
+}
+
+.titulo{
+	font-family: 'Catamaran';
+}
+
+.btn-light{
+	border-radius: 50px;
+}
+
+#conference{
+	font-family: 'Catamaran';
+	text-align: center;
+	padding: 10% 0;
+}
+
+#conference h3{
+	padding: 10% 0;
+	font-size: 1em;
+}
+
+#conference p{
+	font-size: 0.8em;
+}
+#conference a{
+	font-size: 1em;
+	color: var(--color-negro);
+	text-decoration: none;
+}
+
+#speaker{
+	padding: 10% 0;
+	text-align: center;
+}
+
+#speaker p{
+	padding: 5% 0;
+	font-size: 0.8em;
+}
+
+#speaker h3{
+	padding: 5% 0;
+	font-size: 1em;
+}
+
+#speaker h4{
+	padding: 5% 0;
+	color: var(--color-footer);
+	font-size: 0.7em;
+}
+
+#speaker a{
+	padding:5% 0;
+	font-size: 1em;
+	color: var(--color-negro);
+	text-decoration: none;
+}
+
+#meeting{
+	font-family: 'Catamaran';
+	font-size: center;
+	padding: 10% 0;
+	background-color: #282d33;
+	color: #c3c3c3; 
+}
+
+#meeting h2{
+	font-size: 1.3em;
+	padding: 10% 0;
+}
+
+#meeting h4{
+	font-size: 0.8em;
+}
+
+#meeting h5{
+	font-size: 1.2em;
+}
+
+#meeting p{
+	font-size: 0.8em;
+}
+
+#meeting i{
+	font-size: 4em;
+}
+
+#sponsor{
+	padding: 10% 0;
+	text-align: center;
+	font-family: 'Catamaran';
+}
+
+#sponsor h2{
+	padding: 10% 0;
+}
+
+#sponsor p{
+	font-size: 0.8em;
+}
+
+#sponsor img{
+	margin: 20% 0;
+}
